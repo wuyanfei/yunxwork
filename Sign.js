@@ -2,8 +2,7 @@ const md5 = require('md5');
 /**
  * 系统参数：
  * appKey、secret、timestamp、companyId
- * 应用级参数：
- * params，是一个object对象
+ * 应用级参数
  */
 class Sign {
   constructor(obj) {
